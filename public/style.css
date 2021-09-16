@@ -1,0 +1,28 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');*/
+
+
+.titulo {
+    color: pink;
+    margin: 10 rem;
+    text-align: center;
+}
+
+/*.body {
+    margin:0;
+    min-height: 100vh;
+    font-family: 'Allison', cursive;
+    font-family: 'Lobster', cursive;
+}*/
+.login-container {
+    display: flex; /*!important   PRIORIDAD*/
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background: rgb(195, 197, 209)!important;
+    border-radius: 20px!important;
+    /*border: 10px dotted red;*/
+ /*    align-items: center;
+    height:100vh;  */
+}
